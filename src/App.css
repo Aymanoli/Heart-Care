@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin-top: 64px;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 64px);
+}
+
+/* service container */
+
+.service-item-img{
+  transition: 0.3s ease-in-out;
+}
+.tilt-container:hover .service-item-img{
+  transform: scale(120%);
+}
+
+
+/* login page and other page height */ 
+.fullPage {
+  min-height: calc(100vh - 64px);
+}
+
+
+
+
+
+/* Footer */
+.footer{
+  margin-top: auto;
+  background-color: #1F2937;
+  color: white;
+}
